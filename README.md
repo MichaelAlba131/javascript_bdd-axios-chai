@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <body>
-  <h1>📚 Projeto BDD API Testing<br>
+  <h1>📚 Projeto BDD API Axios Chai Testing<br>
     <small>JavaScript + Cucumber.js + Axios + Chai</small>
   </h1>
   <p>
