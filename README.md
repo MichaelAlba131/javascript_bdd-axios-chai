@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>📚 Documentação - Projeto BDD com JavaScript, Cucumber.js, Axios e Chai</title>
-</head>
 <body>
   <h1>📚 Projeto BDD API Testing<br>
     <small>JavaScript + Cucumber.js + Axios + Chai</small>
