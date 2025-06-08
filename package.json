@@ -1,0 +1,23 @@
+{
+  "name": "javascript_bdd-axios-chai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js tests/features/ --require tests/steps/",
+    "test:parallel2": "cucumber-js tests/features/ --require tests/steps/  --parallel 2",
+    "test:parallel3": "cucumber-js tests/features/ --require tests/steps/  --parallel 3",
+    "test:parallel4": "cucumber-js tests/features/ --require tests/steps/  --parallel 4",
+    "test:tag": "cucumber-js tests/features/ --require tests/steps/   --tags '@Login'",
+    "test:playwrightDebug": "PWDEBUG=1 cucumber-js tests/features/ --require tests/steps/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "axios": "^1.6.0",
+    "chai": "^4.3.8",
+    "@cucumber/cucumber": "^9.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
